@@ -24,5 +24,4 @@ elif my_equation == "sub":
 elif my_equation == "mult":
     print(mult(val1, val2))
 elif my_equation == "div":
-    print(div(val1, val2))
-
+    print(int(div(val1, val2)))
