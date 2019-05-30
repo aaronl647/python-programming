@@ -64,7 +64,7 @@ marvel_movies = ['Iron Man',
     'Iron Man II',
     'Thor',
     'Captain America: The First Avenger',
-    'The Avenegers', 
+    'The Avengers', 
     'Iron Man III', 
     'Thor: The Dark World', 
     'Captain America: The Winter Soldier', 
@@ -85,9 +85,13 @@ marvel_movies = ['Iron Man',
 
 movies_with_the = []
 
+'''
 for index, movie in enumerate(marvel_movies):
     if "the " in movie.lower():
         movies_with_the.append(movie)
 
 print(movies_with_the)
-print(len(movies_with_the))
+'''
+
+for index in range(len(marvel_movies)):
+        print(index)

@@ -9,7 +9,6 @@ def cereal_time():
 def cereal_time_2():
     return " is yummy!"
 
-
 for food in breakfast:
     #checks for the letter s at the end of every item in the list 
     #[-1] makes the code check the last letter first

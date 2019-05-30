@@ -1,11 +1,9 @@
 def say_hi():
-     return "my favourite greeting"
+     print("my favourite greeting")
 
-my_question = input("Do you want to know my favourite greeting? ")
+my_question = input("Do you want to know my favourite greeting? Enter 'yes' to see greeting ")
 
-if my_question == "yes":
-    print(say_hi())
-elif my_question == "no":
-    print("okay..")
+if my_question.lower() == "yes":
+    say_hi()
 else:
-    print("Invalid input, please try again.")
+    print("Invalid input, please try again")
